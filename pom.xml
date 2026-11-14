@@ -11,6 +11,13 @@
   <artifactId>openzen</artifactId>
   <version>0.2.0-SNAPSHOT</version>
   <name>OpenZen</name>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
   <properties>
     <java.version>25</java.version>
     <jacoco.version>0.8.16</jacoco.version>
@@ -32,6 +39,17 @@
     </dependency>
   </dependencies>
   <build>
+    <resources>
+      <resource><directory>src/main/resources</directory></resource>
+      <resource>
+        <directory>.</directory>
+        <targetPath>META-INF/openzen</targetPath>
+        <includes>
+          <include>LICENSE</include><include>NOTICE</include>
+          <include>THIRD_PARTY_NOTICES.md</include><include>licenses/**</include>
+        </includes>
+      </resource>
+    </resources>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>

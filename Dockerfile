@@ -4,6 +4,8 @@ WORKDIR /build
 COPY .mvn .mvn
 COPY mvnw pom.xml ./
 COPY src/main src/main
+COPY LICENSE NOTICE THIRD_PARTY_NOTICES.md ./
+COPY licenses licenses
 RUN --mount=type=cache,target=/root/.m2,sharing=locked ./mvnw -B -Dmaven.test.skip=true package
 
 FROM eclipse-temurin:25-jre AS runtime
