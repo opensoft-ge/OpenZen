@@ -26,3 +26,7 @@ Implemented in `ApiController.java` with 15 new cases in `src/test/java/ge/opens
 ## Java 25 migration
 
 The runtime, HTTP acceptance harness and build now use Java 25 / Spring Boot 4.1.2. Existing persistence and implemented API behavior are retained. Current coverage and test results supersede earlier stack-specific measurements: see [validation](validation.md). This migration does not expand vendor-compatibility claims.
+
+## Required product experience — UX-001
+
+**Planned, before the first browser release.** Implement a professional, responsive interface with complete light/dark themes and a visible, keyboard-accessible persistent toggle. Follow the [product experience acceptance contract](product-experience.md). Dependencies: real product UI and the applicable identity/access foundations; validate both themes through actual workflows, including narrow screens, preference persistence, storage failure and accessible contrast/focus. The current API foundation does not provide this browser capability.

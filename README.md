@@ -58,3 +58,7 @@ The ledger records the next capabilities and known deviations. These foundations
 ## Contributing
 
 Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for setup, validation and contribution terms.
+
+## Product experience
+
+See the [professional appearance and dark-mode requirements](docs/product-experience.md), including current implementation status and browser-release acceptance criteria.
