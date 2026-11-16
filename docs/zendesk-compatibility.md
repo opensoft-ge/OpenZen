@@ -30,3 +30,11 @@ The runtime, HTTP acceptance harness and build now use Java 25 / Spring Boot 4.1
 ## Required product experience — UX-001
 
 **Planned, before the first browser release.** Implement a professional, responsive interface with complete light/dark themes and a visible, keyboard-accessible persistent toggle. Follow the [product experience acceptance contract](product-experience.md). Dependencies: real product UI and the applicable identity/access foundations; validate both themes through actual workflows, including narrow screens, preference persistence, storage failure and accessible contrast/focus. The current API foundation does not provide this browser capability.
+
+## Required AI, agent and conversational delivery — OZ-AI-001–005
+
+Owner direction added 2026-11-16: fully AI-enabled core journeys, contextual conversational support and agents that complete permitted work are required product capabilities. Follow the [AI acceptance contract](ai-capabilities.md) and its five backlog dimensions: conversation, assistance, scoped actions, reliable/governed execution and measured outcomes.
+
+**Status:** Required/unverified: this documentation update does not establish implementation or provider qualification. Reconcile each item against actual code and tests before changing its status.
+
+Prioritize a complete supported journey with identity, source permissions, typed APIs and execution controls in place. Record implementation evidence and acceptance results per slice; a summary endpoint, conversation store or documentation change does not complete the parent requirement. Keep these items visible alongside other release blockers.

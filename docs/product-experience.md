@@ -15,3 +15,7 @@ Sources: [W3C text contrast](https://www.w3.org/WAI/WCAG22/Understanding/contras
 ## Delivery tracking
 
 Experience ID: `UX-001`. Track implementation and remaining work in the [capability ledger](zendesk-compatibility.md). For a first UI release, connect real authenticated product workflows, implement both themes and qualify the above journeys. A design requirement does not change the implemented API/CLI contract.
+
+## AI product direction
+
+Requirement added 2026-11-16: OpenZen must become fully AI enabled, agentic and conversational across its core journeys. The [AI capability and acceptance guide](ai-capabilities.md) defines the required work and evidence. This direction does not change the implementation scope or historical validation results recorded above.

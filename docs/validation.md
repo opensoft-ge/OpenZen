@@ -21,3 +21,7 @@ Acceptance runs through actual Spring Boot HTTP servers with synthetic local cre
 The Docker image builds and starts as UID 10001. HTTP readiness, representative record creation and persistence across application-container replacement pass using a disposable named volume. Existing application volumes are untouched. CI runs the same Maven verification command.
 
 Reports: `target/site/jacoco/index.html`, `target/site/jacoco/jacoco.xml`, and `target/surefire-reports/`. `clean` removes stale reports before instrumentation. Passing tests and execution coverage establish the documented implemented subset; they do not prove complete vendor parity, missing inventory coverage, production load capacity or enterprise readiness.
+
+## AI product direction
+
+Requirement added 2026-11-16: OpenZen must become fully AI enabled, agentic and conversational across its core journeys. The [AI capability and acceptance guide](ai-capabilities.md) defines the required work and evidence. This direction does not change the implementation scope or historical validation results recorded above.

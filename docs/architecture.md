@@ -9,3 +9,7 @@ Each authenticated request opens a separate JDBC connection and an immediate SQL
 This remains a local evaluation architecture: reads also acquire the SQLite write lock, collections may be materialized before filtering, and versioned schema upgrades, asynchronous workers and distributed execution are not implemented. Back up the database before replacing a deployment. There is no browser login or UI in this API foundation.
 
 Docker builds the JAR with Java 25 and runs it as UID 10001 with a writable `/data` volume. Compose binds to loopback. `pom.xml` pins the Spring Boot dependency platform and direct libraries; the Maven distribution has a pinned checksum. `./mvnw clean verify` instruments all production Java without exclusions. Contract fixtures are local behavior regression evidence, not vendor conformance captures.
+
+## AI product direction
+
+Requirement added 2026-11-16: OpenZen must become fully AI enabled, agentic and conversational across its core journeys. The [AI capability and acceptance guide](ai-capabilities.md) defines the required work and evidence. This direction does not change the implementation scope or historical validation results recorded above.

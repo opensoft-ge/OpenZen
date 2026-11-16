@@ -12,3 +12,7 @@ By intentionally submitting a contribution for inclusion, you agree to license y
 Do not include credentials, private customer data or confidential source material. Report suspected security vulnerabilities privately to support@opensoft.ge with the project name and a safe reproduction; do not publish exploit details in a public issue before coordinated review.
 
 No paid support or consulting engagement is required to contribute.
+
+## AI product direction
+
+Requirement added 2026-11-16: OpenZen must become fully AI enabled, agentic and conversational across its core journeys. The [AI capability and acceptance guide](docs/ai-capabilities.md) defines the required work and evidence. This direction does not change the implementation scope or historical validation results recorded above.
